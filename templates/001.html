@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Project template {% endblock title %}
+
+{% block content %}
+<h1>Hello world test 001</h1>
+{% endblock content %}
+
+{% block scripts %}
+	<script src="/assets/libs/jquery-2.0.3.min.js"></script>
+	<script src="/assets/libs/TweenMax.min.js"></script>
+	<script>
+		function init() {
+			console.log('init()');
+			
+		}
+
+
+		$(window).ready(function() {
+		    init();
+		})
+
+	</script>
+{% endblock scripts %}
+

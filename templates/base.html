@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Wishes test</title>
+		<meta name="description" content="your description goes here">
+		<link rel="stylesheet" href="/assets/css/app.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+		<link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,400italic,500,700,900|Bangers' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="/assets/images/favicon.ico" />
+
+	<title>{% block title %} Title here will be rewritten {% endblock title %}</title>
+
+	{% block style %}
+	{% endblock style %}
+</head>
+
+<body>
+	{% block content %}{% endblock %}
+
+	
+	
+	{% block scripts %}
+	
+	{% endblock %}
+
+<!-- analytics goes here -->
+
+</body>
+</html>

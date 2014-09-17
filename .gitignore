@@ -1,0 +1,16 @@
+lib-cov
+*.seed
+*.log
+*.pyc
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.pyc
+.DS_Store
+.sass-cache
+pids
+logs
+*.sublime-project
+*.sublime-workspace
